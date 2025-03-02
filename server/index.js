@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 const mongoUri = process.env.DATABASE_URL;
 
 const corsOptions = {
-  origin: ["http://localhost:5173"], // Add frontend URL here
+  origin: ["https://fullstack-chat-application-1.onrender.com"], // Add frontend URL here
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
   //   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
   credentials: true,
